@@ -1,5 +1,6 @@
 def reverse_each_word(words)
-  words.each do |word|
+  final = words.split(' ')
+  final.each do |word|
     puts word.reverse
   end
 end
