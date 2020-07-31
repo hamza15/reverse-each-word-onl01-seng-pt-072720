@@ -4,7 +4,7 @@ def reverse_each_word(words)
   final.each do |word|
     new_arry << word.reverse
   end
-  puts new_arry
+  puts new_arry.join(' ')
 end
 
 words = "Hello there, and how are you?"
