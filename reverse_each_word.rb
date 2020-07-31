@@ -6,8 +6,3 @@ def reverse_each_word(words)
   end
   return new_arry.join(' ')
 end
-
-
-words = "Hello there, and how are you?"
-
-reverse_each_word(words)
