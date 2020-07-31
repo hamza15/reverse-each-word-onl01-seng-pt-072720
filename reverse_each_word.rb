@@ -4,7 +4,7 @@ def reverse_each_word(words)
   final.collect do |word|
     new_arry << word.reverse
   end
-  new_arry.join(' ')
+  return new_arry.join(' ')
 end
 
 
