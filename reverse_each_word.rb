@@ -3,8 +3,8 @@ def reverse_each_word(words)
   new_arry = []
   final.each do |word|
     new_array << word
-    puts new_array.join(' ')
   end
+  puts new_array.join(' ')
 end
 
 words = "Hello there, and how are you?"
