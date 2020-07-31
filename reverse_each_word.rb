@@ -2,8 +2,8 @@ def reverse_each_word(words)
   final = words.split(' ')
   new_arry = []
   final.each do |word|
-    final_string = new_array.
-    puts word.reverse
+    new_array << word
+    puts new_array.join(' ')
   end
 end
 
